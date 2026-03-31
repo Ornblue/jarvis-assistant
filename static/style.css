@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background: #0b0f14;
+    color: #00e6e6;
+    font-family: Arial;
+}
+
+.bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, #0b0f14, #000);
+    z-index: -1;
+}
+
+.hud {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.mic {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: cyan;
+    border: none;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.chat {
+    width: 350px;
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid cyan;
+    padding: 10px;
+    background: black;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+input {
+    padding: 10px;
+    width: 220px;
+    background: black;
+    color: cyan;
+    border: 1px solid cyan;
+}
+
+button {
+    padding: 10px;
+}
+
+#graph img {
+    width: 300px;
+    margin-top: 10px;
+}
